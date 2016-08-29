@@ -1,6 +1,12 @@
 python manage.py makemigrations polls生成迁移文件
 
 python manage.py migrate 应用为迁移文件到数据库
+所以一般的节奏为：
+	1.建立models
+	2.生成迁移文件
+	3.应用迁移文件
 
+
+python manage.py shell 启用交互环境
 
 
